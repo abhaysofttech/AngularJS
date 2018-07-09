@@ -1,0 +1,77 @@
+ body {
+     font-family: 'lato', Arial, Helvetica;
+     line-height: 1.4;
+     overflow-x: hidden;
+     background: #f2f2f2;
+ }
+
+ .redBorder {
+     border: 2px solid red;
+ }
+
+ .blueBorder {
+     border: 2px solid #004f71;
+ }
+
+ .noMargin {
+     margin: 0px !important;
+ }
+
+ .noPadding {
+     padding: 0px !important;
+ }
+.row {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+ .middle-xs {
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     -webkit-box-align: center;
+     align-items: center;
+ }
+
+ .center-xs {
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     text-align: center;
+ }
+ .left-xs {
+     text-align: left;
+ }
+
+ .img-responsive {
+     width: 100%;
+     height: auto;
+     max-width: 100%;
+     max-height: 100%;
+ }
+
+.Container {
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+    margin-bottom: 16px;
+    padding: 15px;
+}
+p {
+    font-size: 14px;
+    color: #4A4548;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
